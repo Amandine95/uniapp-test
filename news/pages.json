@@ -1,0 +1,93 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path":"pages/list/index",
+			"style":{
+				"navigationBarTitleText":"主页"
+			}
+		},
+		{
+			"path":"pages/house/index",
+			"style":{
+				"navigationBarTitleText":"房产用途",
+				"titleImage":"static/top-44.png"
+				// "navigationStyle":"custom"  // 禁用默认头部导航
+			}
+		},
+		{
+			"path":"pages/house/esf",
+			"style":{
+				"navigationBarTitleText":"住宅信息"
+			}
+		},
+		{
+			"path":"pages/house/office",
+			"style":{
+				"navigationBarTitleText":"写字楼信息"
+			}
+		},
+		{
+			"path":"pages/house/shop",
+			"style":{
+				"navigationBarTitleText":"商铺信息"
+			}
+		},
+		{
+			"path":"pages/field/index",
+			"style":{
+				"navigationBarTitleText":"土地评估"
+			}
+		},
+		{"path":"pages/field/landinfo"},
+		{
+			"path":"pages/user/user",
+			"style":{
+				"navigationBarTitleText":"用户信息"
+			}
+		},
+		{
+			"path":"pages/login/index"
+		},
+		{
+			"path":"pages/login/findpwd"
+		},
+		{
+			"path":"pages/register/index"
+		},
+		{
+			"path":"pages/util/city"
+		},
+		{
+			"path":"pages/history/index",
+			"style":{
+				"navigationBarTitleText":"评估记录"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "评估",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"color":"#8a8a8a",
+		"selectedColor":"#d4237a",
+		"borderStyle":"black",
+		"backgroundColor":"#ffffff",
+		"list":[
+			{
+				"pagePath": "pages/list/index",
+				"text": "主页",
+				"iconPath": "static/g1.png",
+				"selectedIconPath": "static/g3.png"
+			},
+			{
+				"pagePath": "pages/login/index",
+				"text": "我的",
+				"iconPath": "static/g10.png",
+				"selectedIconPath": "static/g3.png"
+			}
+		]
+	}
+}

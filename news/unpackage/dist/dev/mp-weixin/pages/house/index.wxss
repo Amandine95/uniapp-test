@@ -1,0 +1,21 @@
+
+.head-bg {
+	width: 100%;
+	height: 304rpx;
+}
+.head-bg image {
+	width: 100%;
+	height: 304rpx;
+}
+.title {
+	min-width: calc(4em + 15px);
+}
+.uni-flex {
+	height: 100rpx;
+}
+.btn-submit {
+	background-color: #09BB07;
+	margin: 200rpx 50rpx;
+	color: #fff;
+}
+

@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/list/index",
+    "pages/house/index",
+    "pages/house/esf",
+    "pages/house/office",
+    "pages/house/shop",
+    "pages/field/index",
+    "pages/field/landinfo",
+    "pages/user/user",
+    "pages/login/index",
+    "pages/login/findpwd",
+    "pages/register/index",
+    "pages/util/city",
+    "pages/history/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "评估",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#d4237a",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/list/index",
+        "text": "主页",
+        "iconPath": "static/g1.png",
+        "selectedIconPath": "static/g3.png"
+      },
+      {
+        "pagePath": "pages/login/index",
+        "text": "我的",
+        "iconPath": "static/g10.png",
+        "selectedIconPath": "static/g3.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap17.json"
+}
